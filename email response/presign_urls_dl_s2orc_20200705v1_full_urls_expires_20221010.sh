@@ -1,3 +1,15 @@
+#!/bin/bash
+
+# create directory
+mkdir 20200705v1
+mkdir 20200705v1/full/
+mkdir 20200705v1/full/metadata/
+mkdir 20200705v1/full/pdf_parses/
+
+wget -O 20200705v1/LICENSE 'https://ai2-s2-s2orc.s3.amazonaws.com/20200705v1/LICENSE?AWSAccessKeyId=AKIA5BJLZJPW4OD5EQ2P&Signature=5ceR9vVcX%2FPkpgt2cBRdNWra0JY%3D&Expires=1665435140'
+
+wget -O 20200705v1/RELEASE_NOTES 'https://ai2-s2-s2orc.s3.amazonaws.com/20200705v1/RELEASE_NOTES?AWSAccessKeyId=AKIA5BJLZJPW4OD5EQ2P&Signature=QfUcLBMA7r80zfIZoIARw6eoUQs%3D&Expires=1665435140'
+
 wget -O 20200705v1/full/metadata/metadata_0.jsonl.gz 'https://ai2-s2-s2orc.s3.amazonaws.com/20200705v1/full/metadata/metadata_0.jsonl.gz?AWSAccessKeyId=AKIA5BJLZJPW4OD5EQ2P&Signature=fDKI99R3gSQyMmsCEg8HZYAbBQs%3D&Expires=1665435141'
 
 wget -O 20200705v1/full/metadata/metadata_1.jsonl.gz 'https://ai2-s2-s2orc.s3.amazonaws.com/20200705v1/full/metadata/metadata_1.jsonl.gz?AWSAccessKeyId=AKIA5BJLZJPW4OD5EQ2P&Signature=goDsnThdVgQpkikq75hCi2Ir9c0%3D&Expires=1665435141'
@@ -397,3 +409,4 @@ wget -O 20200705v1/full/pdf_parses/pdf_parses_97.jsonl.gz 'https://ai2-s2-s2orc.
 wget -O 20200705v1/full/pdf_parses/pdf_parses_98.jsonl.gz 'https://ai2-s2-s2orc.s3.amazonaws.com/20200705v1/full/pdf_parses/pdf_parses_98.jsonl.gz?AWSAccessKeyId=AKIA5BJLZJPW4OD5EQ2P&Signature=XGXQsSwmxPI%2BWUhi%2B946jGNntMU%3D&Expires=1665435151'
 
 wget -O 20200705v1/full/pdf_parses/pdf_parses_99.jsonl.gz 'https://ai2-s2-s2orc.s3.amazonaws.com/20200705v1/full/pdf_parses/pdf_parses_99.jsonl.gz?AWSAccessKeyId=AKIA5BJLZJPW4OD5EQ2P&Signature=fVDS%2B%2FlB5wHGBUnbDnjGp6Qs87s%3D&Expires=1665435151'
+
